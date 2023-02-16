@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+}
+.hero {
+   
+}
+.holiday {
+    padding: 73px 0px 0px 85px;
+    background-image:url(https://w-dog.ru/wallpapers/15/15/427618606623900/tekstura-material-dzhinsy-cvet-xaki-kamuflyazh-den-zashhitnika-otechestva-23-fevralya-hd.jpg);
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100vh;
+}
+.holiday__content {
+    display: flex;
+    align-items: center;
+}
+.holiday-info {
+    max-width: 371px;
+    margin-left: 98px;
+}
+.holiday__column {
+
+}
+.holiday__title {
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    margin-bottom: 16.63px;
+    width: 600px;
+    color: rgb(247, 204, 95);
+}
+.holiday__text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+   margin-right: 20px;
+    margin-bottom: 35px;
+    color: rgb(247, 204, 95);
+}
+.holiday__img-wrap {
+}
+.holiday__img {
+    width: 300px;
+    height: 330px;
+}
