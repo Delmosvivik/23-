@@ -4,16 +4,21 @@
 html,
 body {
     height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 .wrapper {
     min-height: 100%;
 }
 .hero {
-   
+    height: 100vh;
 }
 .holiday {
     padding: 73px 0px 0px 85px;
-    background-image:url(https://w-dog.ru/wallpapers/15/15/427618606623900/tekstura-material-dzhinsy-cvet-xaki-kamuflyazh-den-zashhitnika-otechestva-23-fevralya-hd.jpg);
+   background-image: url(https://papik.pro/uploads/posts/2021-11/thumbs/1636564957_6-papik-pro-p-fon-s-tankami-risunok-6.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
 }
 .container {
     max-width: 1140px;
@@ -33,11 +38,16 @@ body {
 }
 .holiday__title {
     font-weight: 600;
-    font-size: 44.2px;
+    font-size: 60px;
     line-height: 49px;
     margin-bottom: 16.63px;
     width: 600px;
-    color: rgb(247, 204, 95);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrJtFuFa7kWV97qmlW8u3j7FxwKuEM_k61Xw&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .holiday__text {
     font-weight: 400;
@@ -45,11 +55,46 @@ body {
     line-height: 24px;
    margin-right: 20px;
     margin-bottom: 35px;
-    color: rgb(247, 204, 95);
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20210324/pngtree-green-camouflage-military-texture-background-image_590369.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 .holiday__img-wrap {
 }
 .holiday__img {
     width: 300px;
     height: 330px;
+}
+.compliment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-image: url(https://phonoteka.org/uploads/posts/2022-02/thumbs/1645349725_3-phonoteka-org-p-kamuflyazhnii-fon-svetlii-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section {
+    height:700px;
+}
+.subtitle {
+   font-size: 70px;
+}
+.compliment__content {
+    display: flex;
+    column-gap: 50px;
+    text-align: center;
+    width: 80%;
+    font-size: 35px;
+}
+.compliment__col {
+    background-image: url(https://phonoteka.org/uploads/posts/2022-02/1645012480_1-phonoteka-org-p-sinii-kamuflyazh-fon-1.jpg);
+   border-radius: 30px;
+   padding: 50px;
+}
+.compliment__text {
+    font-size: 40px ;
 }
